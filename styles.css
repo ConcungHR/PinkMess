@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "UVN";
   height: 100vh;
   margin: 0;
   background-image: url("bg.jpg"); /* Thay đường dẫn ảnh nền nếu cần */
@@ -85,7 +85,7 @@ button:hover {
   align-items: flex-start;
   margin-bottom: 20px;
   color: rgb(255, 0, 157);
-  font-family: "Roboto", sans-serif;
+  font-family: "UVN";
   font-size: 16px;
   text-align: left;
   padding: 10px;
@@ -107,6 +107,7 @@ button:hover {
   margin-right: 30px;
   font-family: "iCiel";
   text-align: left;
+  color: #195dfe;
 }
 
 @font-face {
