@@ -92,8 +92,8 @@ button:hover {
 }
 
 #card-recipient {
-  font-size: 5px;
-  font-weight: bold;
+  font-size: 3px;
+  /*font-weight: bold;*/
   margin-bottom: -15px;
   font-family: "UVN";
   text-align: left;
@@ -109,7 +109,7 @@ button:hover {
   font-family: "iCiel";
   text-align: left;
   color: #195dfe;
-  line-height: 0.4;
+  line-height: 0.3;
 }
 
 @font-face {
