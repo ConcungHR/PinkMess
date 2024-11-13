@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông điệp của bạn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PinkMess</h1>
+        <form action="display.html" method="get">
+            <div class="form-group">
+                <label for="message">Bạn muốn gửi thông điệp*:</label>
+                <textarea id="message" name="message" maxlength="200" required></textarea>
+            <div>
+            (*)Dưới 200 characters
+
+            <div class="form-group">
+                <label for="recipient">Đến:</label>
+                <input type="text" id="recipient" name="recipient" required>
+            </div>
+            
+            <button type="submit">Xem thiệp của bạn</button>
+        </form>
+    </div>
+</body>
+</html>
