@@ -12,16 +12,16 @@
         <form action="display.html" method="get">
             <div class="form-group">
                 <label for="message">Bạn muốn gửi thông điệp*:</label>
-                <textarea id="message" name="message" maxlength="200" required></textarea>
+                <textarea id="message" name="message" maxlength="200" required placeholder="Tối đa 200 lý tự" ></textarea>
             <div>
-            (*)Dưới 200 characters
 
             <div class="form-group">
-                <label for="recipient">Đến**:</label>
-                <input type="text" id="recipient" name="recipient" required>
+                <label for="recipient">Đến*:</label>
+                <input type="text" id="recipient" name="recipient" required placeholder="Có thể là tên riêng, biệt danh, mật danh, hay tên cúng cơm dễ thương cute">
             </div>
-            (**)Aka.,tên riêng, biệt danh, etc.
-            <button type="submit">Xem thiệp của bạn</button>
+            <div style="text-align: center;padding-top: 15px;">
+                <button type="submit">Xem thiệp của bạn</button>
+            </div>
         </form>
     </div>
 </body>
